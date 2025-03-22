@@ -58,20 +58,21 @@ section h3 {
 }
 
 .activity-card {
-  margin-bottom: 15px;
-  padding: 15px;
-  border: 1px solid #ddd;
+  border: 1px solid #ccc;
   border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 10px;
   background-color: #f9f9f9;
 }
 
 .activity-card h4 {
-  margin-bottom: 10px;
-  color: #0066cc;
+  margin: 0 0 10px;
+  color: #333;
 }
 
 .activity-card p {
-  margin-bottom: 8px;
+  margin: 5px 0;
+  color: #555;
 }
 
 .form-group {
@@ -87,25 +88,22 @@ section h3 {
 .form-group input,
 .form-group select {
   width: 100%;
-  padding: 10px;
-  border: 1px solid #ddd;
+  padding: 8px;
+  border: 1px solid #ccc;
   border-radius: 4px;
-  font-size: 16px;
 }
 
 button {
-  background-color: #1a237e;
+  background-color: #007bff;
   color: white;
-  border: none;
   padding: 10px 15px;
-  font-size: 16px;
-  border-radius: 5px;
+  border: none;
+  border-radius: 4px;
   cursor: pointer;
-  transition: background-color 0.2s;
 }
 
 button:hover {
-  background-color: #3949ab;
+  background-color: #0056b3;
 }
 
 .message {
@@ -115,15 +113,13 @@ button:hover {
 }
 
 .success {
-  background-color: #e8f5e9;
-  color: #2e7d32;
-  border: 1px solid #a5d6a7;
+  color: #28a745;
+  font-weight: bold;
 }
 
 .error {
-  background-color: #ffebee;
-  color: #c62828;
-  border: 1px solid #ef9a9a;
+  color: #dc3545;
+  font-weight: bold;
 }
 
 .info {
@@ -134,6 +130,20 @@ button:hover {
 
 .hidden {
   display: none;
+}
+
+#message {
+  margin-top: 15px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#activities-list {
+  margin-top: 20px;
+}
+
+#signup-container {
+  margin-top: 30px;
 }
 
 footer {
